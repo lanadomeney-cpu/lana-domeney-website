@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headshots &amp; CV | Lana Domeney</title>
+  <meta name="description" content="Professional headshots and performance CV for vocalist and actor Lana Domeney, represented by Jeep Management, Sydney." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="subpage">
+
+  <!-- ===== NAV ===== -->
+  <header class="nav nav--solid" id="nav">
+    <a href="index.html" class="nav__brand" aria-label="Lana Domeney, home">
+      <img src="assets/logo/lana-white.png" alt="Lana Domeney" />
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html#about">About</a>
+      <a href="index.html#shows">Shows</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="headshots.html" class="is-current">Headshots &amp; CV</a>
+      <a href="index.html#contact" class="nav__cta">Enquire</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== PAGE HEAD ===== -->
+  <section class="pagehead">
+    <p class="eyebrow">Portfolio</p>
+    <h1 class="section__title">Headshots &amp; CV</h1>
+    <p class="section__lead" style="margin:0 auto">Represented by Jeep Management, Sydney.</p>
+  </section>
+
+  <!-- ===== HEADSHOT CAROUSEL ===== -->
+  <section class="section section--top0">
+    <div class="carousel" id="carousel">
+      <div class="carousel__viewport">
+        <div class="carousel__track" id="carTrack">
+          <figure class="carousel__slide"><img src="assets/headshots/hs-1.jpg" alt="Lana Domeney headshot 1" /></figure>
+          <figure class="carousel__slide"><img src="assets/headshots/hs-2.jpg" alt="Lana Domeney headshot 2" /></figure>
+          <figure class="carousel__slide"><img src="assets/headshots/hs-3.jpg" alt="Lana Domeney headshot 3" /></figure>
+          <figure class="carousel__slide"><img src="assets/headshots/hs-4.jpg" alt="Lana Domeney headshot 4" /></figure>
+          <figure class="carousel__slide"><img src="assets/headshots/hs-5.jpg" alt="Lana Domeney headshot 5" /></figure>
+          <figure class="carousel__slide"><img src="assets/headshots/hs-6.jpg" alt="Lana Domeney headshot 6" /></figure>
+        </div>
+      </div>
+      <button class="carousel__btn carousel__prev" id="carPrev" aria-label="Previous headshot">&#8249;</button>
+      <button class="carousel__btn carousel__next" id="carNext" aria-label="Next headshot">&#8250;</button>
+      <div class="carousel__dots" id="carDots" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===== CV PREVIEW ===== -->
+  <section class="cv section" id="cv">
+    <div class="section__head center">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h2 class="section__title">Performance CV</h2>
+      <p class="section__lead" style="margin:0 auto">Training, theatre, and corporate &amp; performance credits.</p>
+    </div>
+    <div class="cv__wrap">
+      <a class="cv__doc" href="assets/cv/lana-domeney-cv.pdf" target="_blank" rel="noopener" aria-label="Open full CV as PDF">
+        <img src="assets/cv/cv-preview.jpg" alt="Lana Domeney performance CV, page 1" loading="lazy" />
+        <span class="cv__badge">View full PDF</span>
+      </a>
+      <div class="cv__actions">
+        <a class="btn btn--pink" href="assets/cv/lana-domeney-cv.pdf" download>Download CV (PDF)</a>
+        <a class="btn btn--outline" href="index.html#contact">Enquire</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <img class="footer__sig logo-tilt" src="assets/logo/lana-white.png" alt="Lana Domeney" />
+    <p>&copy; <span id="year">2026</span> Lana Domeney · International Vocalist &amp; Entertainer · Sydney, Australia</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
