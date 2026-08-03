@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gig Guide | Lana Domeney</title>
+  <meta name="description" content="August Gig Guide, live performance dates, and Sydney Showboats residency for vocalist Lana Domeney." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="subpage">
+
+  <!-- ===== NAV ===== -->
+  <header class="nav nav--solid" id="nav">
+    <a href="index.html" class="nav__brand" aria-label="Lana Domeney, home">
+      <img src="assets/logo/lana-white.png" alt="Lana Domeney" />
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html#about">About</a>
+      <a href="index.html#shows">Shows</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="headshots.html">Headshots &amp; CV</a>
+      <a href="gig-guide.html" class="is-current">Gig Guide</a>
+      <a href="index.html#contact" class="nav__cta">Enquire</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== PAGE HEAD ===== -->
+  <section class="pagehead">
+    <p class="eyebrow">Live Dates &amp; Residencies</p>
+    <h1 class="section__title">Gig Guide</h1>
+  </section>
+
+  <!-- ===== GIG GUIDE CONTENT ===== -->
+  <section class="section section--top0">
+    <div class="section__head center">
+      <h2 class="section__title">August Gig Guide &ndash; Watch Me Sing LIVE</h2>
+    </div>
+
+    <div class="gig-poster__wrap">
+      <button class="masonry__item" data-full="assets/img/gig-guide-august.jpg" style="aspect-ratio:auto; border-radius:0;">
+        <img src="assets/img/gig-guide-august.jpg" alt="Lana Domeney August Gig Guide Poster" loading="lazy" />
+      </button>
+    </div>
+
+    <div class="section__head center" style="margin-top: 4.5rem;">
+      <h2 class="section__title">New Residency &ndash; Winter Vocalist on Sydney Showboats</h2>
+    </div>
+
+    <div class="grid3" id="masonry">
+      <button class="masonry__item" data-full="assets/img/showboat-1.jpg"><img src="assets/img/showboat-1.jpg" alt="Lana Domeney performing live duet on Sydney Showboats" loading="lazy" /></button>
+      <button class="masonry__item" data-full="assets/img/showboat-2.jpg"><img src="assets/img/showboat-2.jpg" alt="Lana Domeney and Showboat Follies dancers on stage" loading="lazy" /></button>
+      <button class="masonry__item" data-full="assets/img/showboat-3.jpg"><img src="assets/img/showboat-3.jpg" alt="Lana Domeney backstage portrait in Showboat costume" loading="lazy" /></button>
+    </div>
+
+    <div class="residency__blurb">
+      <p>Sydney Showboats offers a three-course Dinner Cruise on the iconic Sydney Harbour, featuring The Sydney Showboat Follies and their Cabaret &ldquo;The Voyage of Love&rdquo;. Tickets are <a href="https://www.sydneyshowboats.com.au/sydney-harbour-cruises/dinner-cruises?gad_source=1&amp;gad_campaignid=20526787086&amp;gbraid=0AAAAAD99twOoG0YjuQN4KYxOIuZrKOm29&amp;gclid=CjwKCAjw1bvTBhBbEiwAzbP8L4dVQBuo3Pjd_R5VZhRAsCaeLtBUetXVG3-uOs4TzoML94THc1W5uRoCC5QQAvD_BwE" target="_blank" rel="noopener">here</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <img class="footer__sig logo-tilt" src="assets/logo/lana-white.png" alt="Lana Domeney" />
+    <p>&copy; <span id="year">2026</span> Lana Domeney &middot; International Vocalist &amp; Entertainer &middot; Sydney, Australia</p>
+  </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+    <img id="lbImg" src="" alt="" />
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
