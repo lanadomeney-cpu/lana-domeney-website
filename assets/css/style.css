@@ -394,13 +394,18 @@ em{font-style:italic;color:var(--beige-soft)}
 }
 /* ---------- GIG GUIDE ---------- */
 .gig-poster__wrap{
-  max-width:580px;margin:0 auto 2.5rem;
+  max-width:580px;width:92%;margin:0 auto 2.5rem;
   border-radius:6px;overflow:hidden;
   border:1px solid rgba(188,166,122,.3);
   box-shadow:0 30px 80px -30px rgba(254,84,153,.35),0 0 0 1px rgba(188,166,122,.25);
   background:var(--ink-2);
 }
-.gig-poster__wrap img{width:100%;height:auto;display:block}
+.gig-poster__wrap .masonry__item{
+  display:block;width:100%;border:0;padding:0;margin:0;
+  background:none;cursor:pointer;
+  opacity:1 !important;transform:none !important;
+}
+.gig-poster__wrap img{width:100%;height:auto;display:block;opacity:1 !important}
 
 .grid3{
   max-width:1100px;margin:0 auto 2.5rem;
